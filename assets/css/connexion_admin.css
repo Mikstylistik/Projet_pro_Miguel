@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'font_0';
+    src: url(../fonts/Poppins-Light.ttf);
+}
+  @font-face {
+    font-family: 'font_1';
+    src: url(../fonts/Poppins-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'font_2';
+    src: url(../fonts/Poppins-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: 'font_3';
+    src: url(../fonts/Fredoka-Medium.ttf);
+  }
+  @font-face {
+    font-family: 'font_h1';
+    src: url(../fonts/Fredoka-SemiBold.ttf);
+  }
+
+body{
+    margin: 0 auto;
+}
+
+#logo img{
+    display: block;
+    margin: auto;
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+
+input{
+    display: block;
+    margin: auto;
+    padding-left: 10px;
+    height: 30px;
+    width: 250px;
+    border: 2px solid #898888;
+    border-radius: 5px;
+    font-family: 'font_1', sans-serif;
+    font-size: 15px;
+}
+
+.login_button{
+    width: 120px;
+    background-color: white;
+    font-family: 'font_2', sans-serif;
+}
+
+.login_button:hover{
+    background-color: #000000;
+    color: white;
+}

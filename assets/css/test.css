@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: "font1";
+    src: url(/assets/fonts/Poppins-Regular.ttf);
+  }
+@font-face {
+    font-family: "font_2";
+    src: url(/assets/fonts/Poppins-SemiBold.ttf);
+  }
+@font-face {
+    font-family: "font_h1";
+    src: url(/assets/fonts/Fredoka-SemiBold.ttf);
+  }
+
+
+body {
+    margin: 20px 800px;
+  }
+  
+  #bloc1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+  
+  #bloc2 {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #bloc2 a{
+    font-family: "font1";
+    color: black;
+    text-decoration: none;
+    margin-left: 125px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.slide img{
+    margin-top: 20px;
+    width: 1130px;
+}
+
+h1{
+    font-family:'font_h1', sans-serif;
+    font-size: 50px;
+    position: absolute; 
+    height: 500px;
+}
+
+p{
+  font-family: "font_1", sans-serif;
+  position: absolute;
+}

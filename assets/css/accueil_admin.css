@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'font_0';
+    src: url(../fonts/Poppins-Light.ttf);
+}
+  @font-face {
+    font-family: 'font_1';
+    src: url(../fonts/Poppins-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'font_2';
+    src: url(../fonts/Poppins-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: 'font_3';
+    src: url(../fonts/Fredoka-Medium.ttf);
+  }
+  @font-face {
+    font-family: 'font_h1';
+    src: url(../fonts/Fredoka-SemiBold.ttf);
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.content_admin a{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: -20px;
+    /* padding-left: 10px; */
+    height: 30px;
+    width: 250px;
+    border: 2px solid #898888;
+    border-radius: 5px;
+    font-family: 'font_1', sans-serif;
+    font-size: 15px;
+    text-decoration-line: none;
+    color: black;
+    text-align: center;
+    padding-top: 8px;
+}
